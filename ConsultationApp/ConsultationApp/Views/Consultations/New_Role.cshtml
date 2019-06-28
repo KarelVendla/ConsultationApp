@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "New Role";
+}
+
+<h2>Create Role</h2>
+<br />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            <b>
+                Role name
+            </b>
+            @Html.TextBox("RoleName")
+        </div>
+    </div>
+    <input type="submit" value="Create" class="btn btn-default" />
+
+}
