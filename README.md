@@ -1,20 +1,24 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# ConsultationApp
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+An ASP.NET MVC application done as a school project.
+Project's main goal is to make consultation system easier.
+- Teacher: 
+    * Can add consultations
+    * Can view consultations added by them.
+- Student: 
+    * Can register to consultations
+    * Can easily see consultations added by teacher
+    * Can see which consultations they've registered to
+- Admin: 
+    * Can create roles (Teacher,Student,Administrator etc..)
+    * Can bind user to role
+    * Can delete roles
+    * Can remove user from role
+    * Has all the functionalities available
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# What I learned
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+* ASP.NET Identity
+* Managing data
+* Generating users / data when non is present
+* ...
